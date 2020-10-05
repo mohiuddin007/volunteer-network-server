@@ -69,8 +69,4 @@ client.connect(err => {
 });
 
 
-app.get('/', function (req, res) {
-  res.send('hello world')
-})
-
 app.listen(8000)
